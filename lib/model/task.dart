@@ -5,6 +5,6 @@ class Task {
 }
 
 final lista = List.generate(
-    30,
+    20,
     (index) =>
         Task('Tarea número: $index', 'Descripción de la tarea número $index'));
